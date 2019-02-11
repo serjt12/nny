@@ -1,0 +1,26 @@
+{
+  "name": "nny",
+  "version": "1.0.0",
+  "repository": "https://github.com/ooade/NextSimpleStarter",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "^8.0.0",
+    "next-redux-wrapper": "^2.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "start": "NODE_ENV=production node server"
+  },
+  "devDependencies": {
+    "workbox-webpack-plugin": "^3.4.1"
+  },
+  "main": "index.js",
+  "author": "serjt12 <jandreus87@hotmail.com>"
+}
